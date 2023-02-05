@@ -1,7 +1,12 @@
-import React from 'react'
+import Link from "next/link"
 
 export default function page() {
   return (
-    <div>speakers</div>
+    <>
+    <h1>Welcome to Speakers</h1>
+    <h2>
+      <Link href="/conference">Back to Conference</Link>
+    </h2>
+    </>
   )
 }
