@@ -9,8 +9,7 @@ const openFont = Open_Sans({
 export default function ConferenceLayout({ children }) {
   return (
 
-      <section className={openFont.className}>
-        
+      <section className={openFont.className}>        
       {children}      
       </section>
   )
