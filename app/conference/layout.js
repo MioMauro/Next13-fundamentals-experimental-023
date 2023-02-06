@@ -1,4 +1,4 @@
-import ConferenceHeader from "@/components/ConferenceHeader";
+
 import { Open_Sans } from "@next/font/google"
 
 const openFont = Open_Sans({ 
@@ -8,12 +8,10 @@ const openFont = Open_Sans({
 
 export default function ConferenceLayout({ children }) {
   return (
-    <html lang="en" className={openFont.className}>      
-      <head />
-      <body>
-      <ConferenceHeader/>
-      {children}
-      </body>
-    </html>
+
+      <section className={openFont.className}>
+        
+      {children}      
+      </section>
   )
 }
